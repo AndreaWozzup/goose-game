@@ -23,7 +23,9 @@ Application can be executed with the following command:
 
 The web server will be answering requests on http://localhost:8080
 The exposed endpoints are:
+
 **POST** /add?name=*player name*
+
 **POST** /move?name=*player name*
 
 The */move* endpoint can also have an (optional) request body in the form of an application/json object that models the Roll.java object such as:
